@@ -2,7 +2,7 @@
 
 # Project Name
 
-> One paragraph statement about the project.
+> A calculator website following the Single Page Application process, build with REACT
 
 ![screenshot](./app_screenshot.png)
 
@@ -10,7 +10,7 @@ Additional description about the project and its features.
 
 ## Built With
 
-- Major languages
+- Major languages: JavaScript REACT, HTML&CSS
 - Frameworks
 - Technologies used
 
@@ -28,8 +28,11 @@ Additional description about the project and its features.
 To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
+npm/yarn installed
 
 ### Setup
+run <code>npm install</code>
+now run <code>npm start</code> to start the app
 
 ### Install
 
