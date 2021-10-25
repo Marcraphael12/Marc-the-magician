@@ -2,7 +2,7 @@
 
 # Project Name
 
-> One paragraph statement about the project.
+> A calculator website following the Single Page Application process, build with REACT
 
 ![screenshot](./app_screenshot.png)
 
@@ -10,7 +10,7 @@ Additional description about the project and its features.
 
 ## Built With
 
-- Major languages
+- Major languages: JavaScript REACT, HTML&CSS
 - Frameworks
 - Technologies used
 
@@ -28,17 +28,19 @@ Additional description about the project and its features.
 To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
+npm/yarn installed
 
 ### Setup
-
+clone the repo: <code>git clone git@github.com:Marcraphael12/Marc-the-magician.git</code><br>
+jump to the active branch: <code>git checkout setup-react</code><br>
 ### Install
-
+in the terminal, run: <code>npm install</code>
 ### Usage
-
+now run <code>npm start</code> to start the app
 ### Run tests
-
+Author only
 ### Deployment
-
+In progress
 
 
 ## Authors
