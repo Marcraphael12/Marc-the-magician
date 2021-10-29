@@ -1,4 +1,9 @@
-function Pad () {
+/* eslint-disable no-unused-vars */
+/* eslint-disable no-useless-constructor */
+/* eslint-disable class-methods-use-this */
+import React from 'react';
+
+function Pad() {
   return (
     <div>
       <ul>
@@ -24,13 +29,18 @@ function Pad () {
         <li className="pad different"><button type="submit">=</button></li>
       </ul>
     </div>
-  )
-};
+  );
+}
 
-function Component () {
-  return (
-    <Pad />
-  )
-};
+class Component extends React.Component {
+  constructor(props) {
+    super(props);
+  }
 
+  render() {
+    return (
+      <Pad />
+    );
+  }
+}
 export default Component;
