@@ -1,39 +1,39 @@
 div {
-	width: 100%;
-	height: 100%;
+  width: 100%;
+  height: 100%;
 }
 
 ul {
-	width: 100%;
-	height: 100%;
-	display: flex;
-	flex-wrap: wrap;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .pad {
-	width: 25%;
-	height: auto;
-	border: 1px solid rgb(61, 61, 61);
+  width: 25%;
+  height: auto;
+  border: 1px solid rgb(61, 61, 61);
 }
 
 .pad:hover {
-	background-color: rgb(187, 187, 187);
+  background-color: rgb(187, 187, 187);
 }
 
 .screen {
-	width: 100%;
-	border: 1px solid black;
+  width: 100%;
+  border: 1px solid black;
 }
 
 .screen input {
-	direction: rtl;
-	outline: none;
+  direction: rtl;
+  outline: none;
 }
 
 .zero {
-	width: 50%;
+  width: 50%;
 }
 
 .different {
-	background-color: orange;
+  background-color: orange;
 }

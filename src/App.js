@@ -3,9 +3,9 @@ import Component from './components/component.js';
 import './App.css';
 
 function App() {
-	return (
-		<Component />
-	)
+  return (
+    <Component />
+  )
 }
 
 export default App;

@@ -25,12 +25,12 @@ function Pad () {
       </ul>
     </div>
   )
-}
+};
 
 function Component () {
   return (
     <Pad />
   )
-}
+};
 
 export default Component;
