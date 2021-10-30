@@ -1,6 +1,6 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# Math Magicians
 
 > A calculator website following the Single Page Application process, build with REACT
 
@@ -34,7 +34,7 @@ npm/yarn installed
 clone the repo: <code>git clone git@github.com:Marcraphael12/Marc-the-magician.git</code><br>
 jump to the active branch: <code>git checkout setup-react</code><br>
 ### Install
-in the terminal, run: <code>npm install</code>
+in the terminal, run: <code>npm install</code> or <code>npm i</code>
 ### Usage
 now run <code>npm start</code> to start the app
 ### Run tests
@@ -45,13 +45,7 @@ In progress
 
 ## Authors
 
-👤 **Author1**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
-👤 **Author2**
+👤 **Marc Raphael**
 
 - GitHub: [@githubhandle](https://github.com/githubhandle)
 - Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
