@@ -1,6 +1,6 @@
 import React from 'react';
 // eslint-disable-next-line no-unused-vars
-import Component from './components/calculator.js';
+import MakeOperations from './components/calculator.js';
 import './App.css';
 
 class App extends React.Component {
@@ -8,7 +8,7 @@ class App extends React.Component {
   render() {
     return (
       <div className="App">
-        <Component />
+        <MakeOperations />
       </div>
     );
   }
