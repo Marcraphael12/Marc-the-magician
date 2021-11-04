@@ -2,12 +2,12 @@ import React, { useState } from 'react';
 import calculate from './logic/calculate.js';
 
 export default function MakeOperations (){
-  
+    const [result, setResult] = useState({});
 
   eventhandler = (e) => {
     const b = e.target.textContent;
-    const calc = calculate(this.state, b);
-    this.setState(calc);
+    const calc = calculate(result, b);
+    setResult(calc);
   };
 
   const buttons = ['AC', '+/-', '%', '÷', '7', '8', '9', 'x',
