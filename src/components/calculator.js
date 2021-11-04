@@ -14,7 +14,7 @@ export default function MakeOperations (){
   const buttons = ['AC', '+/-', '%', '÷', '7', '8', '9', 'x',
     '4', '5', '6', '-', '1', '2', '3', '+', '0', '.', '='];
 
-  const { next, total, operation } = this.state;
+  const { next, total, operation } = res;
   let result = '';
   if (total) {
     result = `${total} ${operation || ''} ${next || ''}`;
