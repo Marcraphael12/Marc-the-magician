@@ -1,8 +1,8 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import calculate from './logic/calculate.js';
 
-export default function MakeOperations (){
-  // res for result as we already have a variable called result in the calculator.js file 
+export default function MakeOperations() {
+  // res for result as we already have a variable called result in the calculator.js file
   const [res, setResult] = useState({});
 
   const eventhandler = (e) => {
