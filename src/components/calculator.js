@@ -2,11 +2,12 @@ import React, { useState } from 'react';
 import calculate from './logic/calculate.js';
 
 export default function MakeOperations (){
-    const [result, setResult] = useState({});
+  // res for result as we already have a variable called result in the calculator.js file 
+  const [res, setResult] = useState({});
 
-  eventhandler = (e) => {
+  const eventhandler = (e) => {
     const b = e.target.textContent;
-    const calc = calculate(result, b);
+    const calc = calculate(res, b);
     setResult(calc);
   };
 
@@ -38,7 +39,7 @@ export default function MakeOperations (){
               {result}
             </h3>
           </li>
-          {buttons.map((btn) => (<li className={`pad ${addClass(btn)}`} key={btn}><button key={btn} onClick={this.eventhandler} type="button">{btn}</button></li>))}
+          {buttons.map((btn) => (<li className={`pad ${addClass(btn)}`} key={btn}><button key={btn} onClick={eventhandler} type="button">{btn}</button></li>))}
       </ul>
     </div>
   );
