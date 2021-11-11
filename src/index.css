@@ -33,6 +33,10 @@ button {
   border: none;
 }
 
+.helpful {
+  display: none;
+}
+
 main {
   width: 70%;
   max-width: 900px;
