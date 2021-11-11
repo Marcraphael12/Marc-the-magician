@@ -1,0 +1,36 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: auto;
+
+  > h1 {
+    width: max-content;
+    height: auto;
+  }
+
+  > div {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    width: 30%;
+    height: 100%;
+
+    > a {
+      width: 30%;
+      height: 100%;
+      padding-top: 10px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: rgb(0, 0, 0);
+      text-decoration: underline;
+
+      &:hover {
+        text-decoration: none;
+        color: rebeccapurple;
+      }
+    }
+  }
+}

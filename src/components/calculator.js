@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import calculate from './logic/calculate.js';
+import calculate from './logic/calculate';
 
 export default function MakeOperations() {
   // res for result as we already have a variable called result in the calculator.js file
@@ -32,7 +32,8 @@ export default function MakeOperations() {
     return '';
   }
   return (
-    <div>
+    <div className="calc">
+      <h2>Let's do some math</h2>
       <ul>
         <li className='screen'>
             <h3>
