@@ -1,4 +1,9 @@
+/* eslint-disable import/no-unresolved */
+/* eslint-disable no-unused-vars */
 import renderer from 'react-test-renderer';
+import {
+  render,
+} from '@testing-library/react';
 import MakeOperations from './calculator';
 
 it('calculator snapshot test', () => {
@@ -7,3 +12,5 @@ it('calculator snapshot test', () => {
     .toJSON();
   expect(tree).toMatchSnapshot();
 });
+
+render(<MakeOperations />);
