@@ -1,0 +1,210 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`calculator snapshot test 1`] = `
+<div
+  className="calc"
+>
+  <h2>
+    Let's do some math
+  </h2>
+  <ul>
+    <li
+      className="screen"
+    >
+      <h3>
+        
+      </h3>
+    </li>
+    <li
+      className="pad "
+    >
+      <button
+        onClick={[Function]}
+        type="button"
+      >
+        AC
+      </button>
+    </li>
+    <li
+      className="pad "
+    >
+      <button
+        onClick={[Function]}
+        type="button"
+      >
+        +/-
+      </button>
+    </li>
+    <li
+      className="pad "
+    >
+      <button
+        onClick={[Function]}
+        type="button"
+      >
+        %
+      </button>
+    </li>
+    <li
+      className="pad different"
+    >
+      <button
+        onClick={[Function]}
+        type="button"
+      >
+        ÷
+      </button>
+    </li>
+    <li
+      className="pad "
+    >
+      <button
+        onClick={[Function]}
+        type="button"
+      >
+        7
+      </button>
+    </li>
+    <li
+      className="pad "
+    >
+      <button
+        onClick={[Function]}
+        type="button"
+      >
+        8
+      </button>
+    </li>
+    <li
+      className="pad "
+    >
+      <button
+        onClick={[Function]}
+        type="button"
+      >
+        9
+      </button>
+    </li>
+    <li
+      className="pad different"
+    >
+      <button
+        onClick={[Function]}
+        type="button"
+      >
+        x
+      </button>
+    </li>
+    <li
+      className="pad "
+    >
+      <button
+        onClick={[Function]}
+        type="button"
+      >
+        4
+      </button>
+    </li>
+    <li
+      className="pad "
+    >
+      <button
+        onClick={[Function]}
+        type="button"
+      >
+        5
+      </button>
+    </li>
+    <li
+      className="pad "
+    >
+      <button
+        onClick={[Function]}
+        type="button"
+      >
+        6
+      </button>
+    </li>
+    <li
+      className="pad different"
+    >
+      <button
+        onClick={[Function]}
+        type="button"
+      >
+        -
+      </button>
+    </li>
+    <li
+      className="pad "
+    >
+      <button
+        onClick={[Function]}
+        type="button"
+      >
+        1
+      </button>
+    </li>
+    <li
+      className="pad "
+    >
+      <button
+        onClick={[Function]}
+        type="button"
+      >
+        2
+      </button>
+    </li>
+    <li
+      className="pad "
+    >
+      <button
+        onClick={[Function]}
+        type="button"
+      >
+        3
+      </button>
+    </li>
+    <li
+      className="pad different"
+    >
+      <button
+        onClick={[Function]}
+        type="button"
+      >
+        +
+      </button>
+    </li>
+    <li
+      className="pad zero"
+    >
+      <button
+        onClick={[Function]}
+        type="button"
+      >
+        0
+      </button>
+    </li>
+    <li
+      className="pad "
+    >
+      <button
+        onClick={[Function]}
+        type="button"
+      >
+        .
+      </button>
+    </li>
+    <li
+      className="pad different"
+    >
+      <button
+        onClick={[Function]}
+        type="button"
+      >
+        =
+      </button>
+    </li>
+  </ul>
+</div>
+`;
