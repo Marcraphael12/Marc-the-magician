@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Quote rendering test 1`] = `
+<p
+  className="Quote"
+>
+  "Mathematics is not about numbers, equations, computations or algorithm: It is about understanding" - Williams Paul Thurston.
+</p>
+`;

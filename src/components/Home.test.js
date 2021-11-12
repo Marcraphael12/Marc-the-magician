@@ -1,5 +1,5 @@
 /* eslint-disable no-unused-vars */
-// eslint-disable-next-line import/no-unresolved
+import React from 'react';
 import renderer from 'react-test-renderer';
 import {
   render,
