@@ -4,7 +4,9 @@
 
 > A calculator website following the Single Page Application process, build with REACT
 
-![screenshot](./app_screenshot.png)
+![screenshot](./bkg1.png)
+![screenshot](./bkg2.png)
+![screenshot](./bkg3.png)
 
 Additional description about the project and its features.
 
