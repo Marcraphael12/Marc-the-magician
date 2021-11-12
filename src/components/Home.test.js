@@ -1,5 +1,10 @@
+/* eslint-disable no-unused-vars */
+// eslint-disable-next-line import/no-unresolved
 import renderer from 'react-test-renderer';
-import Home from './Home.js';
+import {
+  render,
+} from '@testing-library/react';
+import Home from './Home';
 
 it('Home rendering test', () => {
   const tree = renderer
@@ -7,3 +12,5 @@ it('Home rendering test', () => {
     .toJSON();
   expect(tree).toMatchSnapshot();
 });
+
+render(<Home/>);

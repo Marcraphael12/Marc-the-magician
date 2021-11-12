@@ -1,4 +1,9 @@
+/* eslint-disable import/no-unresolved */
+/* eslint-disable no-unused-vars */
 import renderer from 'react-test-renderer';
+import {
+  render,
+} from '@testing-library/react';
 import Quote from './Quote';
 
 it('Quote rendering test', () => {
@@ -7,3 +12,5 @@ it('Quote rendering test', () => {
     .toJSON();
   expect(tree).toMatchSnapshot();
 });
+
+render(<Quote />);
