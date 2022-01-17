@@ -2,7 +2,8 @@
 
 # Math Magicians
 
-> A calculator website following the Single Page Application process, build with REACT
+> It is a website for all fans of mathematics. It is a Single Page App (SPA) 
+that allows users to make simple calculations, read a random math-related quote.
 
 ![screenshot](./bkg1.png)
 ![screenshot](./bkg2.png)
@@ -41,17 +42,15 @@ in the terminal, run: <code>npm install</code> or <code>npm i</code>
 now run <code>npm start</code> to start the app
 ### Run tests
 Author only
-### Deployment
-In progress
 
 
 ## Authors
 
 👤 **Marc Raphael**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@Marcraphael12](https://github.com/Marcraphael12)
+- Twitter: [@Marcraphael20](https://twitter.com/MarcRaphael20)
+- LinkedIn: [Marc raphael](http://www.linkedin.com/in/marc-raphael-326039204)
 
 ## 🤝 Contributing
 
